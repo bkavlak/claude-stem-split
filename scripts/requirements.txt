@@ -1,0 +1,14 @@
+# Install torch/torchaudio/torchvision first (matching versions), e.g. on Linux CPU:
+#   pip install torch torchaudio torchvision --index-url https://download.pytorch.org/whl/cpu
+# On macOS just: pip install torch torchaudio torchvision
+demucs==4.0.1          # install with --no-deps (newer releases pull in a Rust-only dependency)
+dora-search
+einops
+julius
+lameenc
+openunmix
+pyyaml
+tqdm
+numpy
+soundfile
+audio-separator[cpu]   # MDX-Net runner (onnxruntime); use audio-separator[gpu] on CUDA machines

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+
+# audio and model artifacts never belong in the repo
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.webm
+*.ckpt
+*.onnx
+*.th
+
+# local scratch / collection folders
+inbox/
+original/
+vocal/
+no-vocal/
+stemwork/
+models/
+cookies.txt
+
+.venv/
+.DS_Store
